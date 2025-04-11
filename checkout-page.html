@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+
+    <section>
+        <h2>Your Cart</h2>
+        <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="A cube">
+            <figcaption>A Cube $29.80</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Cardholder Name</label>
+            <input name="card-name" id="card-name" type="text" required aria-required="true" />
+
+            <label for="card-number">Card Number</label>
+            <input name="card-number" id="card-number" type="number" required aria-required="true" />
+
+            <label for="date">Expiry Date</label>
+            <input name="date" id="date" type="date" />
+
+            <label for="ccv">CCV</label>
+            <input name="ccv" id="ccv" type="text" />
+
+            <input type="submit" value="Place Order" id="submit" />
+        </form>
+    </section>
+
+</body>
+
+</html>
